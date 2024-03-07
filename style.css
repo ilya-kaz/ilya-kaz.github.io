@@ -1,0 +1,142 @@
+@font-face {
+    font-family:'SF Pro Display';
+    font-style:normal;
+    font-weight:100;
+    src:local('☺︎'), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_ultralight.woff") format("woff"), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_ultralight.ttf") format("truetype");
+    /* (C) 2015 Apple Inc. All rights reserved.*/
+  }
+  
+ 
+
+.page-body{
+    font-family:"Inter" ;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;}
+
+.page-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding-left:89px;
+    padding-right: 50px;
+    margin-top: 37px;
+    max-width: 791px;
+    gap: 0px;
+    min-height: 52px;}
+
+.a {
+    color: #4E3FFF;
+    text-decoration: underline;
+    text-decoration-color: rgba(78, 63, 255, 0.30);
+    text-underline-offset: 5px 
+}
+.logo {
+    align-self: start;
+    width: 140px;
+    height: 30px;
+    margin-top: 19px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 19px;
+   
+}
+.menu-item{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+}
+.main{
+    display: flex;
+    position: absolute;
+    width: 364px;
+    height: 241px;
+    left: 98px;
+    right: 547px;
+    top: 296px;
+    bottom: 4330px;
+    flex-direction: column;
+
+}
+.h2 {
+    margin-top: 7px;
+    font-size: 31px;
+}
+
+.opis {
+    font-family: "SF Pro Display";
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+    font-size: 24px;
+    margin-top: 28px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0%;
+}
+.birka{
+    font-size: 31px;
+}
+.slogan{
+font-family:"SF Pro Display";
+    font-style: Semibold;
+font-size: 44px;
+font-weight: 600;
+line-height: 53px;
+letter-spacing: 0%;
+    margin-top: 13px 
+}
+button{
+    font-family: "SF Pro Display";
+    position: absolute;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+    color: white;
+    width: 126px;
+    height: 34px;
+    left: 100px;
+    right: 763px;
+    top: 603px;
+    bottom: 4224px;
+    border-radius: 10px;
+    background: rgb(21, 177, 226);
+}
+.Cena{
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 237px;
+    right: 686px;
+    top: 607px;
+    bottom: 4229px;
+}
+.image{
+    position: absolute;
+    left: 240px;
+    right: -3px;
+    top: 239px;
+    bottom: 4167px;
+    max-width: fit-content;
+    max-height: fit-content;
+    clip: rect(6px, 820px, 312px, 0px);
+}
+      
